@@ -1,9 +1,9 @@
-<svg width="960" height="320" viewBox="0 0 960 320" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="960" height="320" rx="36" fill="#F7EFE3"/>
-  <circle cx="154" cy="160" r="88" fill="#B55B35"/>
-  <path d="M104 174c37-58 78-89 123-94-23 24-35 51-35 82 0 24 9 47 26 68-42-5-80-24-114-56Z" fill="#FFF8ED"/>
-  <path d="M112 196c40 8 78 3 115-15-8 26-26 45-54 59-25-8-45-23-61-44Z" fill="#DCA65A"/>
-  <text x="286" y="144" font-family="Georgia, 'Times New Roman', serif" font-size="58" letter-spacing="7" fill="#26352A">HANOI GLORY</text>
-  <text x="290" y="196" font-family="Arial, sans-serif" font-size="20" letter-spacing="5" fill="#7A6758">WOVEN COMFORT FOR HOSPITALITY</text>
-  <line x1="290" y1="218" x2="785" y2="218" stroke="#B55B35" stroke-width="3"/>
+<svg width="900" height="260" viewBox="0 0 900 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="260" rx="28" fill="#FBF7EF"/>
+  <circle cx="128" cy="130" r="70" fill="#A64F2C"/>
+  <path d="M88 139c30-45 64-69 102-73-19 18-29 41-29 67 0 22 8 42 23 60-36-5-68-23-96-54Z" fill="#FBF7EF"/>
+  <path d="M95 158c34 7 66 3 97-12-8 21-23 37-46 49-21-7-38-19-51-37Z" fill="#C89445"/>
+  <text x="238" y="118" font-family="Georgia, 'Times New Roman', serif" font-size="48" letter-spacing="6" fill="#1F3027">HANOI GLORY</text>
+  <text x="242" y="162" font-family="Arial, sans-serif" font-size="17" letter-spacing="4" fill="#66594F">TEXTILE MANUFACTURING</text>
+  <line x1="242" y1="184" x2="696" y2="184" stroke="#A64F2C" stroke-width="3"/>
 </svg>
