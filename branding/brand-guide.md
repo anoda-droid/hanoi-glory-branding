@@ -4,7 +4,9 @@
 
 HANOI GLORY là thương hiệu sản xuất khăn tắm và hàng dệt cotton đặt tại Hà Nội. Định hướng lấy cảm hứng từ sự gọn gàng, ấm áp và tinh tế của các thương hiệu gia dụng hiện đại như May House, nhưng chuyển sang ngôn ngữ riêng: chuyên nghiệp hơn, hợp B2B khách sạn/spa hơn, và nhấn mạnh năng lực sản xuất.
 
-Tinh thần chính: **êm sạch - bền chuẩn - giao đúng**.
+Tinh thần chính: **sản xuất ổn định - kiểm soát chất lượng - giao hàng đúng kế hoạch**.
+
+Năng lực truyền thông chính: **100 tấn/tháng** cho khăn bông, hàng dệt cotton và đơn hàng OEM/private label.
 
 ## 2. Định vị
 
@@ -31,8 +33,8 @@ File chính: `assets/logo/hanoi-glory-logo.svg`.
 
 ## 5. Typography
 
-- Tiêu đề: serif sang, có cảm giác thủ công và đáng tin. Gợi ý web: `Cormorant Garamond` hoặc `Playfair Display`.
-- Nội dung: sans dễ đọc, hiện đại. Gợi ý web: `Manrope` hoặc `DM Sans`.
+- Tiêu đề: serif chuyên nghiệp, có độ tin cậy cao. Gợi ý web: `Libre Baskerville`.
+- Nội dung: sans rõ ràng, phù hợp hồ sơ năng lực và website B2B. Gợi ý web: `Source Sans 3`.
 - Không dùng font quá công nghệ hoặc quá trẻ trung.
 
 ## 6. Giọng nói thương hiệu
