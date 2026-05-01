@@ -8,35 +8,40 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20260501-content3">
+  <link rel="stylesheet" href="styles.css?v=20260501-i18n1">
 </head>
 <body>
   <header class="nav">
     <a class="brand" href="#top" aria-label="Hanoi Glory home">
-      <img src="assets/logo/hanoi-glory-logo.svg?v=20260501-content3" alt="Hanoi Glory logo">
+      <img src="assets/logo/hanoi-glory-logo.svg?v=20260501-i18n1" alt="Hanoi Glory logo">
     </a>
     <nav>
-      <a href="#capacity">Năng lực</a>
-      <a href="#products">Sản phẩm</a>
-      <a href="#quality">Chất lượng</a>
-      <a href="#contact">Liên hệ</a>
+      <a href="#capacity" data-i18n="nav.capacity">Năng lực</a>
+      <a href="#products" data-i18n="nav.products">Sản phẩm</a>
+      <a href="#quality" data-i18n="nav.quality">Chất lượng</a>
+      <a href="#contact" data-i18n="nav.contact">Liên hệ</a>
     </nav>
+    <div class="language-switch" aria-label="Chọn ngôn ngữ">
+      <button type="button" data-lang="vi" class="is-active">VI</button>
+      <button type="button" data-lang="ja">日本語</button>
+      <button type="button" data-lang="ko">한국어</button>
+    </div>
   </header>
 
   <main id="top">
     <section class="hero section-grid">
       <div class="hero-copy reveal">
-        <p class="eyebrow">HANOI GLORY JOINT STOCK COMPANY</p>
-        <h1>Sản xuất khăn bông số lượng lớn cho khách sạn, spa và thương hiệu riêng.</h1>
-        <p class="lead">Hanoi Glory nhận sản xuất khăn bông và sản phẩm dệt cotton cho khách sạn, spa, đại lý phân phối và thương hiệu riêng. Khách hàng được tư vấn rõ về chất liệu, độ dày/GSM, kích thước, màu sắc, đóng gói và tiến độ. Mục tiêu là giúp đơn hàng dễ kiểm soát chi phí, chất lượng và lịch giao.</p>
+        <p class="eyebrow" data-i18n="hero.eyebrow">HANOI GLORY JOINT STOCK COMPANY</p>
+        <h1 data-i18n="hero.title">Sản xuất khăn bông số lượng lớn cho khách sạn, spa và thương hiệu riêng.</h1>
+        <p class="lead" data-i18n="hero.lead">Hanoi Glory nhận sản xuất khăn bông và sản phẩm dệt cotton cho khách sạn, spa, đại lý phân phối và thương hiệu riêng. Khách hàng được tư vấn rõ về chất liệu, độ dày/GSM, kích thước, màu sắc, đóng gói và tiến độ. Mục tiêu là giúp đơn hàng dễ kiểm soát chi phí, chất lượng và lịch giao.</p>
         <div class="hero-actions">
-          <a class="button primary" href="tel:0961053129">Tư vấn đơn hàng</a>
-          <a class="button ghost" href="mailto:hanoiglory@gmail.com">Gửi yêu cầu báo giá</a>
+          <a class="button primary" href="tel:0961053129" data-i18n="cta.consult">Tư vấn đơn hàng</a>
+          <a class="button ghost" href="mailto:hanoiglory@gmail.com" data-i18n="cta.quote">Gửi yêu cầu báo giá</a>
         </div>
         <div class="hero-proof" aria-label="Chỉ số năng lực chính">
-          <span><strong>100+</strong> tấn/tháng</span>
-          <span><strong>OEM</strong> theo yêu cầu</span>
-          <span><strong>QC</strong> từng lô hàng</span>
+          <span><strong>100+</strong> <em data-i18n="metric.tons">tấn/tháng</em></span>
+          <span><strong>OEM</strong> <em data-i18n="metric.oem">theo yêu cầu</em></span>
+          <span><strong>QC</strong> <em data-i18n="metric.qcShort">từng lô hàng</em></span>
         </div>
       </div>
       <div class="hero-card reveal delay-1">
@@ -46,104 +51,81 @@
 
     <section id="capacity" class="capacity reveal">
       <div>
-        <p class="eyebrow">Năng lực sản xuất</p>
-        <h2>Nhận đơn hàng lớn với năng lực 100 tấn mỗi tháng.</h2>
+        <p class="eyebrow" data-i18n="capacity.eyebrow">Năng lực sản xuất</p>
+        <h2 data-i18n="capacity.title">Nhận đơn hàng lớn với năng lực 100 tấn mỗi tháng.</h2>
       </div>
       <div class="metrics">
-        <article><strong>100+</strong><span>tấn/tháng</span></article>
-        <article><strong>B2B</strong><span>khách sạn, spa, đại lý, OEM</span></article>
-        <article><strong>QC</strong><span>kiểm tra từng lô hàng</span></article>
+        <article><strong>100+</strong><span data-i18n="metric.tons">tấn/tháng</span></article>
+        <article><strong>B2B</strong><span data-i18n="metric.b2b">khách sạn, spa, đại lý, OEM</span></article>
+        <article><strong>QC</strong><span data-i18n="metric.qc">kiểm tra từng lô hàng</span></article>
       </div>
     </section>
 
     <section class="intro reveal">
-      <span>Cam kết sản xuất</span>
-      <p>Hanoi Glory giúp khách hàng đặt khăn đúng thông số, đúng chất lượng và giao hàng theo kế hoạch.</p>
+      <span data-i18n="intro.eyebrow">Cam kết sản xuất</span>
+      <p data-i18n="intro.text">Hanoi Glory giúp khách hàng đặt khăn đúng thông số, đúng chất lượng và giao hàng theo kế hoạch.</p>
     </section>
 
     <section id="products" class="products">
       <div class="section-heading reveal">
-        <p class="eyebrow">Danh mục sản phẩm</p>
-        <h2>Sản phẩm Hanoi Glory nhận sản xuất</h2>
+        <p class="eyebrow" data-i18n="products.eyebrow">Danh mục sản phẩm</p>
+        <h2 data-i18n="products.title">Sản phẩm Hanoi Glory nhận sản xuất</h2>
       </div>
       <div class="product-grid">
-        <article class="product-card reveal">
-          <h3>Khăn khách sạn</h3>
-          <p>Khăn mặt, khăn tay, khăn tắm, khăn sàn và bộ khăn phòng cho khách sạn, resort, homestay. Sản phẩm có thể đặt theo GSM, kích thước, màu sắc, viền và quy cách đóng gói riêng.</p>
-        </article>
-        <article class="product-card reveal delay-1">
-          <h3>Khăn spa & wellness</h3>
-          <p>Khăn dùng cho spa, salon, phòng gym và trung tâm chăm sóc cá nhân. Ưu tiên độ mềm, khả năng thấm hút, cảm giác sạch trên da và màu sắc phù hợp không gian dịch vụ.</p>
-        </article>
-        <article class="product-card reveal delay-2">
-          <h3>OEM / Private label</h3>
-          <p>Gia công khăn theo mẫu có sẵn hoặc phát triển mẫu mới cho thương hiệu riêng. Hỗ trợ tem nhãn, màu riêng, bao bì, đóng kiện và tiêu chuẩn bàn giao theo từng kênh bán.</p>
-        </article>
+        <article class="product-card reveal"><h3 data-i18n="products.hotelTitle">Khăn khách sạn</h3><p data-i18n="products.hotelText">Khăn mặt, khăn tay, khăn tắm, khăn sàn và bộ khăn phòng cho khách sạn, resort, homestay. Sản phẩm có thể đặt theo GSM, kích thước, màu sắc, viền và quy cách đóng gói riêng.</p></article>
+        <article class="product-card reveal delay-1"><h3 data-i18n="products.spaTitle">Khăn spa & wellness</h3><p data-i18n="products.spaText">Khăn dùng cho spa, salon, phòng gym và trung tâm chăm sóc cá nhân. Ưu tiên độ mềm, khả năng thấm hút, cảm giác sạch trên da và màu sắc phù hợp không gian dịch vụ.</p></article>
+        <article class="product-card reveal delay-2"><h3>OEM / Private label</h3><p data-i18n="products.oemText">Gia công khăn theo mẫu có sẵn hoặc phát triển mẫu mới cho thương hiệu riêng. Hỗ trợ tem nhãn, màu riêng, bao bì, đóng kiện và tiêu chuẩn bàn giao theo từng kênh bán.</p></article>
       </div>
     </section>
 
     <section class="split">
-      <div class="image-panel reveal">
-        <img src="assets/images/hanoi-glory-textile-production.png" alt="Không gian sản xuất hàng dệt cotton sạch và sáng">
-      </div>
+      <div class="image-panel reveal"><img src="assets/images/hanoi-glory-textile-production.png" alt="Không gian sản xuất hàng dệt cotton sạch và sáng"></div>
       <div class="text-panel reveal delay-1">
-        <p class="eyebrow">Năng lực thực hiện</p>
-        <h2>Làm việc rõ ràng từ yêu cầu ban đầu đến khi giao hàng.</h2>
-        <p>Với năng lực 100 tấn mỗi tháng, Hanoi Glory phù hợp với khách hàng cần nguồn cung ổn định: khách sạn, spa, đại lý, doanh nghiệp quà tặng và nhãn hàng riêng. Chúng tôi ưu tiên báo giá minh bạch, mẫu duyệt rõ ràng và lịch sản xuất có thể theo dõi.</p>
-        <ul>
-          <li>Nhận sản xuất khăn bông, sản phẩm cotton và hàng dệt theo yêu cầu thực tế của đơn hàng.</li>
-          <li>Tư vấn GSM, kích thước, độ mềm, màu sắc, kiểu viền, tem nhãn và đóng gói để phù hợp ngân sách.</li>
-          <li>Kiểm tra màu sắc, bề mặt, đường may, độ đồng đều và quy cách đóng gói trước khi xuất hàng.</li>
-          <li>Có thể phục vụ đơn hàng định kỳ, đơn hàng theo mùa hoặc đơn hàng phát triển thương hiệu riêng.</li>
-        </ul>
+        <p class="eyebrow" data-i18n="capability.eyebrow">Năng lực thực hiện</p>
+        <h2 data-i18n="capability.title">Làm việc rõ ràng từ yêu cầu ban đầu đến khi giao hàng.</h2>
+        <p data-i18n="capability.text">Với năng lực 100 tấn mỗi tháng, Hanoi Glory phù hợp với khách hàng cần nguồn cung ổn định: khách sạn, spa, đại lý, doanh nghiệp quà tặng và nhãn hàng riêng. Chúng tôi ưu tiên báo giá minh bạch, mẫu duyệt rõ ràng và lịch sản xuất có thể theo dõi.</p>
+        <ul><li data-i18n="capability.li1">Nhận sản xuất khăn bông, sản phẩm cotton và hàng dệt theo yêu cầu thực tế của đơn hàng.</li><li data-i18n="capability.li2">Tư vấn GSM, kích thước, độ mềm, màu sắc, kiểu viền, tem nhãn và đóng gói để phù hợp ngân sách.</li><li data-i18n="capability.li3">Kiểm tra màu sắc, bề mặt, đường may, độ đồng đều và quy cách đóng gói trước khi xuất hàng.</li><li data-i18n="capability.li4">Có thể phục vụ đơn hàng định kỳ, đơn hàng theo mùa hoặc đơn hàng phát triển thương hiệu riêng.</li></ul>
       </div>
     </section>
 
     <section id="quality" class="process reveal">
-      <div class="section-heading compact">
-        <p class="eyebrow">Kiểm soát chất lượng</p>
-        <h2>Quy trình kiểm soát chất lượng dễ theo dõi.</h2>
-      </div>
+      <div class="section-heading compact"><p class="eyebrow" data-i18n="quality.eyebrow">Kiểm soát chất lượng</p><h2 data-i18n="quality.title">Quy trình kiểm soát chất lượng dễ theo dõi.</h2></div>
       <div class="process-grid">
-        <article><span>01</span><h3>Tiếp nhận thông số</h3><p>Làm rõ sản phẩm dùng cho khách sạn, spa, bán lẻ hay quà tặng; chốt số lượng, GSM, kích thước, màu và yêu cầu thương hiệu.</p></article>
-        <article><span>02</span><h3>Duyệt mẫu</h3><p>Gửi mẫu hoặc đối chiếu mẫu khách hàng cung cấp để thống nhất độ dày, độ mềm, màu, đường viền và bao bì.</p></article>
-        <article><span>03</span><h3>Sản xuất hàng loạt</h3><p>Sắp xếp lịch sản xuất theo sản lượng đã chốt; theo dõi tiến độ và thông số chính của từng lô hàng.</p></article>
-        <article><span>04</span><h3>Kiểm tra & bàn giao</h3><p>Kiểm tra thành phẩm, phân loại, đóng gói và bàn giao theo thời gian đã thống nhất với khách hàng.</p></article>
+        <article><span>01</span><h3 data-i18n="quality.step1Title">Tiếp nhận thông số</h3><p data-i18n="quality.step1Text">Làm rõ sản phẩm dùng cho khách sạn, spa, bán lẻ hay quà tặng; chốt số lượng, GSM, kích thước, màu và yêu cầu thương hiệu.</p></article>
+        <article><span>02</span><h3 data-i18n="quality.step2Title">Duyệt mẫu</h3><p data-i18n="quality.step2Text">Gửi mẫu hoặc đối chiếu mẫu khách hàng cung cấp để thống nhất độ dày, độ mềm, màu, đường viền và bao bì.</p></article>
+        <article><span>03</span><h3 data-i18n="quality.step3Title">Sản xuất hàng loạt</h3><p data-i18n="quality.step3Text">Sắp xếp lịch sản xuất theo sản lượng đã chốt; theo dõi tiến độ và thông số chính của từng lô hàng.</p></article>
+        <article><span>04</span><h3 data-i18n="quality.step4Title">Kiểm tra & bàn giao</h3><p data-i18n="quality.step4Text">Kiểm tra thành phẩm, phân loại, đóng gói và bàn giao theo thời gian đã thống nhất với khách hàng.</p></article>
       </div>
     </section>
 
     <section id="brand" class="brand-system reveal">
-      <div>
-        <p class="eyebrow">Thông tin rõ ràng</p>
-        <h2>Hanoi Glory: rõ năng lực, rõ sản phẩm, rõ cam kết.</h2>
-      </div>
-      <p>Website và bộ nhận diện mới tập trung vào điều khách hàng B2B cần biết: công ty sản xuất gì, nhận đơn hàng nào, năng lực bao nhiêu, quy trình kiểm soát ra sao và liên hệ ở đâu để nhận báo giá.</p>
+      <div><p class="eyebrow" data-i18n="brand.eyebrow">Thông tin rõ ràng</p><h2 data-i18n="brand.title">Hanoi Glory: rõ năng lực, rõ sản phẩm, rõ cam kết.</h2></div>
+      <p data-i18n="brand.text">Website và bộ nhận diện mới tập trung vào điều khách hàng B2B cần biết: công ty sản xuất gì, nhận đơn hàng nào, năng lực bao nhiêu, quy trình kiểm soát ra sao và liên hệ ở đâu để nhận báo giá.</p>
     </section>
 
     <section class="texture-strip reveal">
       <img src="assets/images/hanoi-glory-cotton-texture.png" alt="Cận cảnh texture sợi cotton khăn tắm">
-      <div>
-        <h2>Chất lượng khăn bắt đầu từ sợi, bề mặt và độ hoàn thiện.</h2>
-        <p>Khi đánh giá khăn, khách hàng cần nhìn thấy độ xốp, độ đều của bề mặt, đường viền, màu sắc và khả năng hoàn thiện. Đây là các chi tiết Hanoi Glory ưu tiên kiểm soát trong từng đơn hàng.</p>
-      </div>
+      <div><h2 data-i18n="texture.title">Chất lượng khăn bắt đầu từ sợi, bề mặt và độ hoàn thiện.</h2><p data-i18n="texture.text">Khi đánh giá khăn, khách hàng cần nhìn thấy độ xốp, độ đều của bề mặt, đường viền, màu sắc và khả năng hoàn thiện. Đây là các chi tiết Hanoi Glory ưu tiên kiểm soát trong từng đơn hàng.</p></div>
     </section>
   </main>
 
   <footer id="contact" class="footer">
     <div>
-      <p class="eyebrow">Liên hệ đặt hàng</p>
+      <p class="eyebrow" data-i18n="footer.eyebrow">Liên hệ đặt hàng</p>
       <h2>CÔNG TY CỔ PHẦN HANOI GLORY</h2>
-      <p>Mã số thuế: 0110422036 · Ngày thành lập: 18/07/2023 · Ngành nghề chính: Sản xuất vải dệt thoi</p>
-      <p>Địa chỉ: Số 7 TT4 - D2 Bắc Linh Đàm, Phường Đại Kim, Quận Hoàng Mai, Thành phố Hà Nội, Việt Nam</p>
-      <p>Địa chỉ 2 cấp: Số 7 Tt4 - D2 Bắc Linh Đàm, Phường Định Công, Thành phố Hà Nội</p>
+      <p data-i18n="footer.legal">Mã số thuế: 0110422036 · Ngày thành lập: 18/07/2023 · Ngành nghề chính: Sản xuất vải dệt thoi</p>
+      <p data-i18n="footer.address">Địa chỉ: Số 7 TT4 - D2 Bắc Linh Đàm, Phường Đại Kim, Quận Hoàng Mai, Thành phố Hà Nội, Việt Nam</p>
+      <p data-i18n="footer.address2">Địa chỉ 2 cấp: Số 7 Tt4 - D2 Bắc Linh Đàm, Phường Định Công, Thành phố Hà Nội</p>
     </div>
     <div class="contact-card">
-      <span>Năng lực: 100 tấn/tháng</span>
+      <span data-i18n="footer.capacity">Năng lực: 100 tấn/tháng</span>
       <a href="mailto:hanoiglory@gmail.com">hanoiglory@gmail.com</a>
       <a href="tel:0961053129">0961053129</a>
       <span>hanoiglory.com</span>
-      <span>Đại diện: BÙI THỊ BÍCH VÂN - Giám đốc</span>
+      <span data-i18n="footer.rep">Đại diện: BÙI THỊ BÍCH VÂN - Giám đốc</span>
     </div>
   </footer>
+
+  <script src="translations.js?v=20260501-i18n1"></script>
 </body>
 </html>
