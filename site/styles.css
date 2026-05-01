@@ -282,10 +282,13 @@ h3 { font-size: clamp(22px, 2vw, 27px); letter-spacing: -0.02em; }
   to { opacity: 1; transform: translateY(0); }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
   .nav { align-items: flex-start; flex-direction: column; }
   .brand img { width: 180px; }
   .nav nav { width: 100%; justify-content: space-between; gap: 10px; overflow-x: auto; font-size: 14px; }
+}
+
+@media (max-width: 900px) {
   .hero,
   .capacity,
   .split,
